@@ -51,15 +51,18 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/username"
+            android:drawableTint="@color/purple_500"
             android:ems="10"
+
             android:fontFamily="@font/yekan"
-            android:hint="username"
+            android:hint="Email"
             android:inputType="textPersonName"
             android:padding="15dp"
             android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textColorHint="@color/white"
+            android:textColor="@color/white"
 
+            android:textColorHint="@color/white"
             android:textSize="18sp" />
 
         <EditText
@@ -68,15 +71,18 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/password"
+            android:drawableTint="@color/purple_500"
             android:ems="10"
+
             android:fontFamily="@font/yekan"
             android:hint="password"
             android:inputType="textPassword"
             android:padding="15dp"
             android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textColorHint="@color/white"
+            android:textColor="@color/white"
 
+            android:textColorHint="@color/white"
             android:textSize="18sp" />
 
         <Button
