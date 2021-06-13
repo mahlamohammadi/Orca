@@ -33,6 +33,11 @@ signupButton=findViewById(R.id.buttonsignup);
         dialog=new ProgressDialog(this);
         dialog.setMessage("لطفا صبر کنید ...");
         auth= FirebaseAuth.getInstance();
+        if(auth.getCurrentUser()!= null)
+        {
+            startActivity(new Intent(LoginActivity.this,HomeActivity.class));
+        dialog.dismiss();
+    }
         emailBox=findViewById(R.id.usernamelogin);
         passwordBox=findViewById(R.id.passwordlogin);
         loginBtn=findViewById(R.id.buttonlogin);

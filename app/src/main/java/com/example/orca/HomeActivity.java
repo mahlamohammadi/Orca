@@ -20,10 +20,8 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         ArrayList<CategoryModel> categories=new ArrayList<>();
-categories.add(new CategoryModel("","بنزین","100000","https://media.istockphoto.com/vectors/car-flat-icon-vector-id1144092062?b=1&k=6&m=1144092062&s=612x612&w=0&h=zMH-_u3shpUjbCFQiewi6AhSItMmtI-MMVsayqeHRpc="));
-categories.add(new CategoryModel("","بنزین","100000","https://media.istockphoto.com/vectors/car-flat-icon-vector-id1144092062?b=1&k=6&m=1144092062&s=612x612&w=0&h=zMH-_u3shpUjbCFQiewi6AhSItMmtI-MMVsayqeHRpc="));
-categories.add(new CategoryModel("","بنزین","100000","https://media.istockphoto.com/vectors/car-flat-icon-vector-id1144092062?b=1&k=6&m=1144092062&s=612x612&w=0&h=zMH-_u3shpUjbCFQiewi6AhSItMmtI-MMVsayqeHRpc="));
-categories.add(new CategoryModel("","بنزین","100000","https://media.istockphoto.com/vectors/car-flat-icon-vector-id1144092062?b=1&k=6&m=1144092062&s=612x612&w=0&h=zMH-_u3shpUjbCFQiewi6AhSItMmtI-MMVsayqeHRpc="));
+
+
 
         CategoryAdapter adapter =new CategoryAdapter(this,categories);
         binding.categoryList.setLayoutManager(new GridLayoutManager(this,1));
