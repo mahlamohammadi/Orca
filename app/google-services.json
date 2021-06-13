@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "392839254975",
+    "project_id": "orca-da158",
+    "storage_bucket": "orca-da158.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392839254975:android:df974ce14daf1d491ac70a",
+        "android_client_info": {
+          "package_name": "com.example.orca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392839254975-24fesolpbg5622npaaldavh140ou7tvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb6Fnt2Xrx14OPcnEIaGJENYbt9Ka6-lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392839254975-24fesolpbg5622npaaldavh140ou7tvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

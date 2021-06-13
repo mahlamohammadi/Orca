@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cost"
+        android:icon="@drawable/cost"
+        android:title="هزینه" />
+    <item
+        android:id="@+id/income"
+        android:icon="@drawable/income"
+        android:title="درآمد" />
+    <item
+        android:id="@+id/budget"
+        android:icon="@drawable/budget"
+        android:title="بودجه" />
+    <item
+        android:id="@+id/report"
+        android:icon="@drawable/report"
+        android:title="گزارش" />
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Orca</string>
+    <string name="todo">TODO</string>
+    <string name="text">ثبت نام در اُرکـــــا</string>
+    <string name="button">ثبت</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="back">حساب کاربری دارید؟</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
