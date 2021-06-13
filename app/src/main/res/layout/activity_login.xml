@@ -55,7 +55,6 @@
             android:drawableTint="@color/purple_500"
             android:ems="10"
 
-            android:fontFamily="@font/yekan"
             android:hint="Email"
             android:inputType="textPersonName"
             android:padding="15dp"
@@ -75,7 +74,6 @@
             android:drawableTint="@color/purple_500"
             android:ems="10"
 
-            android:fontFamily="@font/yekan"
             android:hint="password"
             android:inputType="textPassword"
             android:padding="15dp"
