@@ -9,7 +9,7 @@ private String categoryId,categoryName,categoryPrice,categoryImage;
         this.categoryPrice = categoryPrice;
         this.categoryImage = categoryImage;
     }
-
+//
     public CategoryModel(){
         //todo
     }
