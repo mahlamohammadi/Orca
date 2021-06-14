@@ -2,6 +2,7 @@ package com.example.orca;
 
 import android.content.ClipData;
 import android.content.Context;
+import android.content.Intent;
 import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
@@ -37,6 +40,17 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Ctegor
 CategoryModel model=categoryModels.get(position);
 holder.Categoryname.setText(model.getCategoryName());
 holder.Categoryprice.setText(model.getCategoryPrice());
+        Glide.with(context).load(model.getCategoryImage())
+                .into(holder.imageView);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(context,TransactionActivity.class);
+                intent.putExtra("catId",model.getCategoryId());
+                context.startActivity(intent);
+            }
+        });
 
 //todo
     }

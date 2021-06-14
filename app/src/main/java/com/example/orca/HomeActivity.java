@@ -43,7 +43,7 @@ public class HomeActivity extends AppCompatActivity {
                 switch (i)
                 {
                     case 0:
-                        transaction.replace(R.id.content,new costFragment());
+                        transaction.replace(R.id.content,new homeFragment());
                         transaction.commit();
                         break;
 
@@ -52,14 +52,10 @@ public class HomeActivity extends AppCompatActivity {
                         transaction.commit();
                         break;
 
-                    case 2:
-                        Toast.makeText(HomeActivity.this,"this is 2 Fragment",Toast.LENGTH_SHORT).show();
-
-                        break;
 
 
-                    case  3:
-                        transaction.replace(R.id.content,new homeFragment());
+                    case  2:
+                        transaction.replace(R.id.content,new costFragment());
                         transaction.commit();
                         break;
 
